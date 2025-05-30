@@ -1,2 +1,6 @@
 info:
   app: Asc Moda Config Repo
+
+logging:
+  level:
+    root: INFO
