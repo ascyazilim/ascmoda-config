@@ -7,7 +7,10 @@ spring:
 
 eureka:
   client:
-    enabled: false
+    register-with-eureka: false
+    fetch-registry: false
+    enabled: false # 🟢 EKLENECEK: bu satır eksikti, hatayı bu tetikliyor
   server:
-    enable-self-preservation: false
     wait-time-in-ms-when-sync-empty: 0
+    enable-self-preservation: false
+
